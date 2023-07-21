@@ -1,0 +1,28 @@
+/* 1. Deposit some money
+2. determine # of lines to bet on
+3. collect bet amounts 
+4. spin the slot machine
+5. transpose slot machine
+6. check if user won
+7. give the user their winnings or take loss
+8. play again 
+
+run app: node project.js
+
+
+/* console.log(reels);
+console.log(rows); shows the spins being transposed */ 
+
+/* top of code that I didn't use because I changed it.
+     const deposit = () => {
+    while (true) {
+        const depositAmount = prompt("Enter a deposit amount: ");
+        const numberDepositAmount = parseFloat(depositAmount);  
+
+        if (isNaN(numberDepositAmount) || numberDepositAmount <= 0) {
+            console.log('Invalid deposit amount, try again.');
+        } else {
+            return numberDepositAmount;
+        }
+    }
+};  */
