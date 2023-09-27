@@ -9,20 +9,4 @@
 
 run app: node project.js
 
-
-/* console.log(reels);
-console.log(rows); shows the spins being transposed */ 
-
-/* top of code that I didn't use because I changed it.
-     const deposit = () => {
-    while (true) {
-        const depositAmount = prompt("Enter a deposit amount: ");
-        const numberDepositAmount = parseFloat(depositAmount);  
-
-        if (isNaN(numberDepositAmount) || numberDepositAmount <= 0) {
-            console.log('Invalid deposit amount, try again.');
-        } else {
-            return numberDepositAmount;
-        }
-    }
-};  */
+This is a walk through of a command line slot machine using node.js. I improved the validation and error checking for the deposits and number of reels selected. 
